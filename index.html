@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokepasteleria</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-nav-container">
+            <img src="Pokepasteleria.png" alt="Logo de Pokepasteleria" class="logo">
+            <h1 style="color: white;">POKEPASTELERÍA</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Pokepasteleria</h2>
+        <p>POKEPASTELERÍA es un emprendimiento vibrante de repostería que deleita a todos los públicos con creaciones irresistibles. Desde pasteles temáticos hasta dulces innovadores, cada producto invita a los clientes a sumergirse en una experiencia dulce única. Con un enfoque en la calidad y la creatividad, Pokepastelería se propone ser el destino ultimate para los amantes de los postres.</p>
+        <h2>Misión y Visión</h2>
+        <p>Misión: Crear postres únicos y personalizados inspirados en el universo de Pokémon, ofreciendo calidad, creatividad y sabor excepcional para momentos especiales.</p>
+        <p>Visión: Ser la pastelería temática líder, reconocida por su excelencia en repostería creativa y su capacidad de traer alegría y nostalgia a cada celebración.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="images.jpeg" alt="Pastel de chocolate">
+                <p>POKETORTA</p>
+                <p>Precio: S/20</p>
+            </div>
+            <div class="producto">
+                <img src="pokemon.png" alt="Pastel de fresa">
+                <p>PIKATORTA</p>
+                <p>Precio: S/22</p>
+            </div>
+            <div class="producto">
+                <img src="images (1).jpeg" alt="Pastel de vainilla">
+                <p>TORTA DEL COMIENZO</p>
+                <p>Precio: S/18</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <div class="producto" style="width: 500px;">
+                <img src="1.png" alt="">                <img src="2.png" alt="">
+            </div>
+            <div class="producto" style="width: 500px;">
+                <img src="Flyer postres repostería moderno café.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formularioContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pokepasteleria - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
