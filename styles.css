@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(249, 224, 64);
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 p{
     font-size: 20px;
@@ -30,7 +30,7 @@ header {
 }
 
 .logo {
-    width: 200px; /* Puedes ajustar el tamaño según sea necesario */
+    width: 225px; /* Puedes ajustar el tamaño según sea necesario */
     height: auto;
     margin-right: 15px; /* Espacio entre el logo y el título */
     margin-bottom: 10px;
@@ -118,8 +118,10 @@ form input, form textarea {
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ff0000;
-    background-color: #ffffff
+    background-color: #ffffff;
+    outline: none;
 }
+
 
 form button {
     margin-top: 15px;
